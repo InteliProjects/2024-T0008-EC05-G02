@@ -1,0 +1,37 @@
+.manual {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    padding: 0 16px;
+    /* or overflow: auto; */
+}
+
+#menu {
+    position: fixed;
+    right: 15px;
+    width: 15%;
+}
+
+#indice {
+    justify-content:end;
+    margin-top: 50px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    max-width: 1200px;
+/* or overflow: auto; */
+}
+
+.header{
+    flex-wrap: wrap; 
+    width: 80%;
+}
+
+.conteudo{
+    width: 80%;
+}
